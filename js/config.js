@@ -1,4 +1,4 @@
-//       _           _    _                     _ 
+﻿//       _           _    _                     _ 
 //      | |         | |  | |                   | |
 //   ___| | ___  ___| | _| |     ___   __ _  __| |
 //  / __| |/ _ \/ _ \ |/ / |    / _ \ / _` |/ _` |
@@ -72,9 +72,9 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"touhou01.jpg",
-	"touhou02.jpg",
-	"touhou03.jpg"
+	"NigPls.jpg",
+	"DieSlow.jpg",
+	"Anything.jpg"
 ];
 
 // (Image-background only)
@@ -113,10 +113,9 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{ogg: "lullaby.ogg", name: "Lullaby of Deserted Hell"},
-	{ogg: "falls_in_fall.ogg", name: "秋に舞う椛と滝飛沫"},
-	{youtube: "https://www.youtube.com/watch?v=3VTwbEWW2W8", name: "Tea for Two"},
-	{youtube: "https://www.youtube.com/watch?v=VaDN_19rPyw", name: "Voile, the Magic Library"},
+	{ogg: "Kas.ogg", name: "Kastis Torrau Feat Amber - Menace"},
+	{youtube: "https://www.youtube.com/watch?v=NQEzap6k0Dg", name: "Never Sleep Alone"},
+	{youtube: "https://www.youtube.com/watch?v=rROXQJayAjs", name: "Jason Ross - Into You"},
 ];
 
 // Random music order?
@@ -133,14 +132,15 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Enjoy the server",
 	"Thanks for joining us!",
-	"Did you know these backgrounds and music are from Touhou?",
+	"Enjoy the Server!",
+	"This server is a test of the future",
+	"Nocandoui's Test Server",
 ];
 
 // Random message order?
 // 'true' or 'false'
-var l_messagesRandom = true;
+var l_messagesRandom = false;
 
 // Delay between message changes
 // in milliseconds
